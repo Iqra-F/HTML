@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>levelpro</title>
+   
+  </head>
+  <body>
+    <header>
+    <h1>My Portfolio</h1>
+  </header>
+  <main>
+    <!--Lists:ordered and unordered-->
+    <ul>
+        <li>Laptop</li>
+          <ul>
+               <li>Charging</li>
+               <li>VScode</li>
+               <li>Google</li>
+               <li>Youtube</li>
+               <li>Internet</li>
+          </ul>
+        <li>Register</li>
+        <li>Pencil</li>
+        <li>Marker</li>
+        <li>Myself</li>
+    </ul>
+    <br>
+    <ol>
+        <li>Laptop</li>
+        <ul>
+            <li>Charging</li>
+            <li>VScode</li>
+            <li>Google</li>
+            <li>Youtube</li>
+            <li>Internet</li>
+        </ul>
+        <li>Register</li>
+        <li>Pencil</li>
+        <li>Marker</li>
+        <li>Myself</li>
+    </ol>
+      <!--Tables-->
+      <table>
+        <thead><!--covers only header of table, i.e first row-->
+            <caption><b>My Data</b></caption>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Age
+                </th>
+                <th>
+                    City
+                </th>
+                <th Colspan="3">
+                    Marks
+                </th>
+            </tr>
+        </thead>
+        <tbody><!--covers body of table, i.e actual data-->
+        <tr>
+            <td>Iqra</td>
+            <td>22</td>
+            <td>Chakwal</td>
+            <td>90</td>
+            <td>93</td>
+            <td>95</td>
+            
+        </tr>  
+        <tr>
+            <td>Shahnaz</td>
+            <td>23</td>
+            <td>Sarkalan</td>
+            <td>90</td>
+            <td>93</td>
+            <td>95</td>
+           
+        </tr> 
+        <tr>
+            <td>Rubab</td>
+            <td>22</td>
+            <td>Chakkharak</td>
+            <td>90</td>
+            <td>93</td>
+            <td>95</td>
+        </tr> 
+        <tr>
+            <th colspan="3" align="left">Total</th>
+            <td>278</td>
+            <td>278</td>
+            <td>278</td>
+        </tr>
+        </tbody>
+      </table>
+      <!--Forms-->
+      <H3><u><b>Login </b></u></b></H3>
+      <form action="/action.php">
+        <pre>Name:     <input type="text" placeholder="Enter your name!"></pre>
+        <p>Password:  <input type="password" placeholder="Enter password!"></p><br>
+        <!--labels and radio buttons -->
+        <!--NOte:make sure that the name of both radio buttons should be same when the idz are dirrerent-->
+        <label for="23">
+        <input type="radio" name="radiobtn" value="Sign in" id="23" ><b>Sign in</b>
+        </label>
+    
+        <label for="56">
+        <input type="radio" name="radiobtn" value="Sign up" id="56" ><b>Sign up</b>
+        </label><br><br>
+        <!--Checkboxes:we can select multiple options here!-->
+        <label for="343">
+            <input type="checkbox" name="Checkboxes" value="Save password" id="343" ><b>Save password</b>
+            </label>
+        
+            <label for="333">
+            <input type="checkbox" name="Checkboxes" value="Remember me" id="333" ><b>Remember me </b>
+            </label>
+
+            <label for="443">
+                <input type="checkbox" name="Checkboxes" value="Save name" id="443" ><b>Save name</b>
+            </label>
+            <br><br>
+            <!--textarea-->
+            <P>Feedback:</P>
+            <textarea name="feedback" id="425245" placeholder="Please write some valuable words for us." rows="8" cols="100"></textarea>
+            <br><br>
+            <!--Dropdown/select tag-->
+            <select name="City/Villege">
+                <option value="Chakwal">Chakwal</option>
+                <option value="Rawalpindi">Rawalpindi</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Kot Iqbal">Kot Iqbal</option>
+                <option value="Islamabad">Islamabad</option>
+            </select><BR><br>
+                <!--submit btn of forms-->
+            <input type="submit" value="Submit button">
+      </form>
+      <br><br>
+      <!--iframe tag:to dislay a website inside our website-->
+      <iframe src="https://www.wikipedia.org/" title="wikipedia" height="300" width="700" title="Iframe Example"></iframe><br><br>
+      <!--iframe tag:can also dipaly videos like youtube videos-->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=2jGrDnhz6o8dEYf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
+      <!--video tag:can also dipaly videos like downloaded in your laptop-->
+      <video src="myvideo.mp4" width="560" height="315" controls loop >Video</video><br><br>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
